@@ -1,10 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VaultFlow</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0b1020;
+    color:white;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#cfcfcf;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 30px;
+    background:#7c3aed;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.features{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#151c35;
+    padding:25px;
+    border-radius:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.footer{
+    text-align:center;
+    padding:40px;
+    color:#999;
+}
+</style>
 </head>
+
 <body>
-<h1>VaultFlow</h1>
-<p>Smart yield aggregation across DeFi protocols.</p>
+
+<section class="hero">
+    <h1>VaultFlow</h1>
+    <p>
+        Smart yield aggregation across DeFi protocols.
+        Discover, compare and optimize earning opportunities
+        from a single dashboard.
+    </p>
+
+    <a href="#" class="btn">Launch App</a>
+</section>
+
+<section class="features">
+
+    <div class="card">
+        <h3>Yield Aggregation</h3>
+        <p>Compare opportunities across multiple DeFi protocols.</p>
+    </div>
+
+    <div class="card">
+        <h3>Portfolio Tracking</h3>
+        <p>Monitor assets and performance in one place.</p>
+    </div>
+
+    <div class="card">
+        <h3>Analytics</h3>
+        <p>Gain insights with simple and transparent metrics.</p>
+    </div>
+
+    <div class="card">
+        <h3>Cross-Chain Ready</h3>
+        <p>Built for the next generation of decentralized finance.</p>
+    </div>
+
+</section>
+
+<div class="footer">
+    © 2026 VaultFlow • Built on IOPN
+</div>
+
 </body>
 </html>
